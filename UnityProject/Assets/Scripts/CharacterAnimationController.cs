@@ -55,4 +55,14 @@ public class CharacterAnimationController : MonoBehaviour
         // Set the "isJumping" parameter in the animator
         animator.SetBool("isJumping", !isGrounded);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Check if the trigger has the tag "Death"
+        if (other.CompareTag("Death"))
+        {
+            // Set the "isDead" parameter in the animator to true
+            animator.SetBool("isDead", true);
+        }
+    }
 }
