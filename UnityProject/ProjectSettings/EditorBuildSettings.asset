@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HoudiniTest.unity
+    guid: d1931bdcb8de5e3489e983503c69d81d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cf6aed51f9d2aa445870836bb875ce22, type: 2}
